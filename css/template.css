@@ -6011,9 +6011,11 @@ input.invalid {
 	content: "\e024";
 }
 body.site {
-	border-top: 3px solid #0088cc;
-	padding: 20px;
-	background-color: #f4f6f7;
+	/*border-top: 3px solid #0088cc;*/
+	padding: 0 10px 10px 10px ;
+	background-color: #fff;
+	background-image:url(../img/mainbg.png);
+	background-repeat:repeat-x;
 }
 body.site.fluid {
 	background-color: #ffffff;
@@ -6035,10 +6037,13 @@ select[size] {
 }
 .brand {
 	color: #004466;
+	margin-top: -13px;
+	margin-left:8%;
+	/*
 	-webkit-transition: color .5s linear;
 	-moz-transition: color .5s linear;
 	-o-transition: color .5s linear;
-	transition: color .5s linear;
+	transition: color .5s linear;*/
 }
 .brand:hover {
 	color: #08c;
@@ -6055,8 +6060,6 @@ select[size] {
 }
 .navigation {
 	padding: 5px 0;
-	border-top: 1px solid rgba(0,0,0,0.075);
-	border-bottom: 1px solid rgba(0,0,0,0.075);
 	margin-bottom: 10px;
 }
 .navigation .nav-pills {
@@ -6070,18 +6073,18 @@ select[size] {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 .container {
-	max-width: 960px;
+	max-width: 800px;
 }
 .body .container {
-	background-color: #fff;
-	-moz-border-radius: 4px;
+	/*background-color: #fff;*/
+	/*-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	padding: 20px;
-	border: 1px solid rgba(0,0,0,0.15);
+	border-radius: 4px;*/
+	padding: 0 20px 20px 20px;
+	/*border: 1px solid rgba(0,0,0,0.15);
 	-moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
 	-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
-	box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.05);*/
 }
 .well .page-header {
 	margin: 0px 0px 5px 0px;
@@ -6457,3 +6460,7 @@ div.current dd.tabs {
 	border: 1px solid #CCC;
 	background-color: #FFF;
 }
+
+.footer
+{ background-color:#fff;
+height:100%;	}
